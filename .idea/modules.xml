@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ViperScript-Api/ViperScript-Api.iml" filepath="$PROJECT_DIR$/ViperScript-Api/ViperScript-Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViperScript-Core/ViperScript-Core.iml" filepath="$PROJECT_DIR$/ViperScript-Core/ViperScript-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/me.thevipershow.iml" filepath="$PROJECT_DIR$/me.thevipershow.iml" />
+    </modules>
+  </component>
+</project>
