@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>me.thevipershow</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ViperScript-Core</module>
+        <module>ViperScript-Api</module>
+    </modules>
     <groupId>ViperScript</groupId>
     <version>0.0.0</version>
+    <name>ViperScript</name>
+
+    <description>Skript but it's better and I made it.</description>
 
     <licenses>
         <license>
@@ -31,8 +39,6 @@
         </developer>
     </developers>
 
-
-
     <repositories>
         <repository>
             <id>spigot-repo</id>
@@ -48,11 +54,16 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.16.3-R0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>20.1.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
