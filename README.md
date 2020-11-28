@@ -3,6 +3,8 @@
 ![2](https://img.shields.io/github/forks/TheViperShow/ViperScript?style=for-the-badge)
 ![3](https://img.shields.io/github/stars/TheViperShow/ViperScript?style=for-the-badge)
 ![4](https://img.shields.io/github/license/TheViperShow/ViperScript?style=for-the-badge)
+![5](https://img.shields.io/github/languages/code-size/TheViperShow/ViperScript?style=for-the-badge)
+![6](https://img.shields.io/tokei/lines/github/TheViperShow/ViperScript?style=for-the-badge)
 <br>
 Skript but it's better and I made it.
 <br>
