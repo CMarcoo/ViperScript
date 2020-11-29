@@ -1,0 +1,8 @@
+main: 'me.thevipershow.viperscript.plugin.ViperScriptPlugin'
+version: ${project.version}
+name: ${parent.name}
+description: "Skript but it's better and I made it."
+author: 'TheViperShow'
+website: "https://github.com/TheViperShow/ViperScript"
+api-version: '1.13'
+database: false

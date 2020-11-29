@@ -1,0 +1,7 @@
+listen AsyncPlayerChatEvent |e| {
+    {p} = e.player;
+    {msg} = e.message;
+    {world} = e.world;
+    e.cancel;
+    world.players.each { |player| player.message(msg); }
+}

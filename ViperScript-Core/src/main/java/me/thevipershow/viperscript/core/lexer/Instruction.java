@@ -1,0 +1,9 @@
+package me.thevipershow.viperscript.core.lexer;
+
+public interface Instruction {
+
+    /**
+     * "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+     */
+    void execute();
+}

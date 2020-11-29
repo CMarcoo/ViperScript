@@ -1,20 +1,17 @@
 package me.thevipershow.viperscript.core.lexer.vpsc;
 
-import me.thevipershow.viperscript.core.FileExtension;
+import java.io.File;
+import me.thevipershow.viperscript.core.lexer.AbstractScriptFile;
+import me.thevipershow.viperscript.core.lexer.ScriptExtension;
 
 /**
- * This file represents a ViperScript script. It cannot be run directly, and should be later
- * translated into the {@link me.thevipershow.viperscript.core.lexer.vpsco.ViperScriptFileObject file}
- * It is characterized by the ".vpsc" file extension.
- * The standard encoding for this type of file is UTF-8 {@link java.nio.charset.StandardCharsets#UTF_8}
+ * This class represents a ViperScript File.
+ * It is passed around and its purpose is to link
+ * the file that contains the script.
  */
-@FileExtension(getFileExtension = ".vpsc")
-public interface ViperScriptFile {
+public final class ViperScriptFile extends AbstractScriptFile {
 
-    /**
-     * Parse the file and obtain meaningful information from this script.
-     * When the current file presents a correct usage of the ViperScript
-     * syntax, it is marked as ready for translation to ViperScript Object.
-     */
-    void parse();
+    public ViperScriptFile(File sourceFile, ScriptExtension extension) {
+        super(sourceFile, extension);
+    }
 }
